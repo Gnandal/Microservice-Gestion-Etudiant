@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: com.gev.admin.AdminApplicationTest
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 8.979 s <<< FAILURE! - in com.gev.admin.AdminApplicationTest
+testControllerPostAdmin  Time elapsed: 0.171 s  <<< FAILURE!
+java.lang.AssertionError: Status expected:<201> but was:<400>
+	at com.gev.admin.AdminApplicationTest.testControllerPostAdmin(AdminApplicationTest.java:40)
+
+testControllerUpdateAdmin  Time elapsed: 0.007 s  <<< FAILURE!
+java.lang.AssertionError: Status expected:<200> but was:<400>
+	at com.gev.admin.AdminApplicationTest.testControllerUpdateAdmin(AdminApplicationTest.java:50)
+
