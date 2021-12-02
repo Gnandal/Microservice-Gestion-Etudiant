@@ -7,5 +7,4 @@ import com.gev.program.models.Program;
 
 @Repository
 public interface ProgramRepository extends JpaRepository<Program, Long>{
-
 }
